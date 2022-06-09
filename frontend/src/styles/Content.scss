@@ -1,0 +1,90 @@
+#degC {
+	background: linear-gradient(to right, #30CFD0 0%, #330867 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+    font-size: 100px;
+    line-height: 1em;
+}
+#sym {
+    vertical-align: top;
+    text-align: left;
+    font-size: 20px;
+}
+
+.containe {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height: 400px;
+    word-break: break-all;
+  }
+  
+  .bloc-tabs {
+    display: flex;
+  }
+  .tabs {
+  
+    padding: 10px;
+    text-align: center;
+    width: 50%;
+    cursor: pointer;
+    box-sizing: content-box;
+    position: relative;
+    outline: none;
+  }
+  
+  
+  .active-tabs  {
+    border-bottom: 1px solid transparent;
+  }
+  
+  .active-tabs::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: -5px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: calc(100% + 2px);
+    height: 5px;
+    background: rgb(88, 147, 241);
+  }
+  
+  
+  
+  button {
+    border: none;
+    
+  }
+  .content-tabs {
+    flex-grow : 1;
+  }
+  .content {
+    width: 100%;
+    height: 100%;
+    display: none;
+  }
+  .content h2 {
+    padding: 0px 0 5px 0px;
+  }
+  .content hr {
+    width: 100px;
+    height: 2px;
+    background: #222;
+    margin-bottom: 5px;
+  }
+  .content p {
+    width: 100%;
+    height: 100%;
+  }
+  .active-content {
+    display: block;
+  }
+
+  .hum {
+    color: #407ba7;
+  }
+  .temp {
+    color: #c43240;
+  }
+    

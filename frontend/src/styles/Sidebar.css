@@ -1,0 +1,12 @@
+.bg-card{
+    background-color:#171717;
+}
+.bg-sidebar-card-top{
+    background-color: #353535;
+}
+.sidebar-separator-top{
+    border-bottom: 1px solid #2e2e2e;
+}
+.sidebar-separator-bottom{
+    border-top: 1px solid #2e2e2e;
+}

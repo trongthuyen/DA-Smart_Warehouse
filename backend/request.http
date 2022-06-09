@@ -1,0 +1,11 @@
+GET http://localhost:8080/api/warehouses/users/1
+
+###
+GET http://localhost:8080/api/warehouses/data/equipment/1
+
+###
+GET http://localhost:8080/api/warehouses/data/sensor/datalog/1/H
+
+###
+GET http://localhost:8080/api/warehouses/data/sensor/1
+
